@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #11da11;
+  color: rgb(6, 6, 6);
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #105e04;
+  color: #f5f7f4;
+}
+
+.game-section, .characters-section {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.game-container {
+  margin-top: 30px;
+  background-image:url("../src/components/image/fondo4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  
+  
+
+  .game-container h2 {
+    color: rgba(247, 6, 134, 0.964);
+  }
+
+
+
+img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.character-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.character-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.character-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7f4; /* Fondo oscuro */
+  color: #030303; /* Texto blanco */
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
