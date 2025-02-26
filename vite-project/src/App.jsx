@@ -8,6 +8,7 @@ function App() {
       <Header /> {/*Incluimos la cabecera*/} 
       <main>
         <Outlet /> {/*Se randerizan las paginas*/} 
+      </main>
     </div>
   );
 }

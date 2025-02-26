@@ -34,7 +34,7 @@ button:hover {
 
 .game-container {
   margin-top: 30px;
-  background-image:url("../src/components/image/fondo4.jpg");
+  /*background-image:url("../src/components/image/fondo4.jpg");*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
