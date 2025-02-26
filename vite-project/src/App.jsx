@@ -5,10 +5,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Header /> {/* Incluimos la cabecera */}
+      <Header /> {/*Incluimos la cabecera*/} 
       <main>
-        <Outlet /> {/* Aquí se renderizan las páginas */}
-      </main>
+        <Outlet /> {/*Se randerizan las paginas*/} 
     </div>
   );
 }
