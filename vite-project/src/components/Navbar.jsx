@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Inicio</Link> {/* Enlace a la página principal */}
+          <Link to="/">Inicio</Link> 
         </li>
         <li>
           <Link to="/characters">Personajes</Link>

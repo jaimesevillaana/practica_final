@@ -8,7 +8,7 @@ export default function GamePage() {
 
   const fetchRandomCharacter = async () => {
     try {
-      const data = await getRandomCharacter(); // Usa la función GET
+      const data = await getRandomCharacter(); 
         setCharacter(data);
         setMessage("");
     } catch (error) {

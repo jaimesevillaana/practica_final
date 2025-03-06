@@ -16,7 +16,7 @@ export default function CharactersPage() {
 
   const fetchCharacters = async () => {
     try {
-      const data = await getCharacters(searchTerm, statusFilter); // Usa la función GET
+      const data = await getCharacters(searchTerm, statusFilter); 
         setCharacters(data.results || []);
     } catch (error) {
         console.error("Error fetching characters:", error);

@@ -34,7 +34,6 @@ button:hover {
 
 .game-container {
   margin-top: 30px;
-  /*background-image:url("../src/components/image/fondo4.jpg");*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,8 +91,8 @@ img {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f5f7f4; /* Fondo oscuro */
-  color: #030303; /* Texto blanco */
+  background-color: #f5f7f4; 
+  color: #030303; 
 }
 
 main {

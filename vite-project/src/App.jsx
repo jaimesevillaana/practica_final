@@ -5,9 +5,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Header /> {/*Incluimos la cabecera*/} 
+      <Header />  
       <main>
-        <Outlet /> {/*Se randerizan las paginas*/} 
+        <Outlet /> 
       </main>
     </div>
   );

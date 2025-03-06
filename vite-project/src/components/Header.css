@@ -1,10 +1,10 @@
 .header {
-    background-color: #1ddf1a; /* Fondo oscuro */
+    background-color: #1ddf1a; 
     padding: 15px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     position: sticky;
     top: 0;
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    z-index: 1000;
   }
   
   .header-content {
@@ -17,12 +17,12 @@
   }
   
   .logo img {
-    height: 100px; /* Ajusta el tamaño del logo */
-    transition: transform 0.3s ease; /* Animación al hacer hover */
+    height: 100px; 
+    transition: transform 0.3s ease; 
   }
   
   .logo img:hover {
-    transform: scale(1.1); /* Efecto de escala al pasar el ratón */
+    transform: scale(1.1); 
   }
   
   .nav ul {
@@ -30,7 +30,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px; /* Espacio entre elementos del menú */
+    gap: 20px; 
   }
   
   .nav ul li {
@@ -38,13 +38,13 @@
   }
   
   .nav ul li a {
-    color: #ffffff; /* Texto blanco */
+    color: #ffffff; 
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    transition: color 0.3s ease; /* Animación de color al hacer hover */
+    transition: color 0.3s ease; 
   }
   
   .nav ul li a:hover {
-    color: #42f311; /* Color azul claro al pasar el ratón */
+    color: #42f311; 
   }

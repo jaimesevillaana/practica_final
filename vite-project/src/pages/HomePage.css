@@ -2,25 +2,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    height: 100vh; 
     background-image: url("https://img.freepik.com/vector-gratis/fondo-remolino-plano-purpura_23-2149986409.jpg"); /* Fondo temático */
     background-size: cover;
     background-position: center;
-    color: #22e910; /* Texto blanco */
+    color: #22e910; 
     text-align: center;
   }
   
   .hero-section {
-    background-color: rgb(5, 5, 5); /* Fondo semi-transparente */
+    background-color: rgb(5, 5, 5); 
     padding: 40px;
     border-radius: 15px;
-    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    backdrop-filter: blur(10px); 
   }
   
   .hero-section h1 {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #0eed0e; /* Color azul claro */
+    color: #0eed0e; 
   }
   
   .hero-section p {
@@ -31,7 +31,7 @@
   .cta-buttons {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espacio entre botones */
+    gap: 20px; 
   }
   
   .cta-button {
@@ -39,7 +39,7 @@
     font-size: 18px;
     font-weight: bold;
     color: #050505;
-    background-color: #0fef29; /* Color azul claro */
+    background-color: #0fef29; 
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -47,8 +47,8 @@
   }
   
   .cta-button:hover {
-    background-color: #055323; /* Color azul más oscuro al hacer hover */
-    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+    background-color: #055323; 
+    transform: scale(1.05); 
     color: #ffffff;
   }
   p {

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./App";
-import HomePage from "./pages/HomePage"; // Importar HomePage
+import HomePage from "./pages/HomePage"; 
 import CharactersPage from "./pages/CharactersPage";
 import GamePage from "./pages/GamePage";
 import "./index.css";
@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Router>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route index element={<HomePage />} /> {/* Ruta por defecto */}
+          <Route index element={<HomePage />} /> 
           <Route path="characters" element={<CharactersPage />} />
           <Route path="game" element={<GamePage />} />
         </Route>
