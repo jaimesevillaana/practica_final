@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { getRandomCharacter } from "../apiService"; 
 
 export default function GamePage() {
   const [character, setCharacter] = useState(null);
@@ -7,17 +8,13 @@ export default function GamePage() {
 
   const fetchRandomCharacter = async () => {
     try {
-      const randomId = Math.floor(Math.random() * 671) + 1;
-      const response = await fetch(
-        `https://rickandmortyapi.com/api/character/${randomId}`
-      );
-      const data = await response.json();
-      setCharacter(data);
-      setMessage("");
+      const data = await getRandomCharacter(); // Usa la función GET
+        setCharacter(data);
+        setMessage("");
     } catch (error) {
-      console.error("Error fetching character:", error);
+        console.error("Error fetching character:", error);
     }
-  };
+};
 
   const checkAnswer = (status) => {
     if (character.status.toLowerCase() === status) {

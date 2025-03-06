@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { getCharacters } from "../apiService";
 import CharacterList from "../components/CharacterList";
 import CharacterSearch from "../components/CharacterSearch";
 
@@ -14,15 +15,13 @@ export default function CharactersPage() {
   }, [searchTerm, statusFilter]);
 
   const fetchCharacters = async () => {
-    let url = `https://rickandmortyapi.com/api/character/?name=${searchTerm}&status=${statusFilter}`;
     try {
-      const response = await fetch(url);
-      const data = await response.json();
-      setCharacters(data.results || []);
+      const data = await getCharacters(searchTerm, statusFilter); // Usa la función GET
+        setCharacters(data.results || []);
     } catch (error) {
-      console.error("Error fetching characters:", error);
+        console.error("Error fetching characters:", error);
     }
-  };
+};
 
   return (
     <div>
