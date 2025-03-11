@@ -11,9 +11,14 @@
 
 ## DESCRIPCIÓN DEL PROYECTO
 Este proyecto con temática de la serie de animación de Rick y Morty, es una app en la que se visualizan los personajes que aparecen en la serie
-y que hacemos uso de endpont de la API de dicha serie para poder hacer busquedas de personajes concretos y filtrarlos por su estado en la serie y
-que también hay un minijuego donde debemos marcar el estado de un personaje, cuya umagen aparece de forma aleatoria,
+y que hacemos uso de endpont de la API de dicha serie para poder hacer busquedas de personajes concretos y filtrarlos por su estado en la serie.
+Contiene un minijuego donde debemos marcar el estado de un personaje, cuya umagen aparece de forma aleatoria,
 y según se acierta se van sumando puntos.
+### Lógica del Juego:
+  - Se utiliza la API de Rick y Morty para obtener un personaje aleatorio.
+  - El usuario debe adivinar si el personaje está vivo o muerto.
+  - Si acierta, se incrementa la puntuación; si no, se muestra un mensaje de error.
+  - Después de cada respuesta, se carga un nuevo personaje.
 
 ## ACCESO AL PROYECTO
 La aplicación está desplegada en Vercel:\
@@ -28,8 +33,12 @@ Y por último ha sido desplegada en Vercel.
 
 ## ESTRUCTURA DE ARCHIVOS:
 <img width="208" alt="Captura de pantalla 2025-03-11 a las 23 57 08" src="https://github.com/user-attachments/assets/f4082189-33f4-4e2a-9523-0daa5762e925" /><br>
-Archivo apiService.js donde se definen las funciones encargadas de realizar 
-las solicitudes GET.
+### Código de la Aplicación:
+1. src/main.jsx (Configuración de React Router).
+2. src/App.jsx (Componente Principal con Menú).
+3. src/index.css (Estilos Globales)
+4. src/apiService.js (Donde se definen las funciones encargadas de realizar 
+las solicitudes GET):
 - getCharacters(name, status):\
 Esta función obtiene una lista de personajes filtrados por nombre y estado.\
 USO:
