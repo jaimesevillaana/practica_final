@@ -29,6 +29,7 @@ Esta aplicación ha sido creada en Vite + React e integra la API de Rick y Morty
 Vite ha sido una herramienta muy útil para crear la estructura del proyecto en React de manera rápida. 
 Para llevar a cabo este proyecto, he utilizado lenguajes de programación como JavaScript, HTML y CSS (estilos). 
 Y por último ha sido desplegada en Vercel.
+Diseño responsive.
 
 
 ## ESTRUCTURA DE ARCHIVOS:
@@ -51,6 +52,11 @@ Esta función obtiene un personaje aleatorio de la API de Rick and Morty.\
 USO:
   - Se utiliza en la página de juego (GamePage.jsx) para obtener un personaje aleatorio.
   - Genera un ID aleatorio y lo usa para construir la URL del endpoint.
+5. src/components/CharacterList.jsx (Lista de Personajes).
+6. src/components/CharacterSearch.jsx (Buscador de Personajes).
+7. src/components/Header.jsx (Cabecera con logo).
+8. src/components/Header.css (Estilos cabecera).
+9. src/components/Navbar.jsx (Menú de Navegación).
 ### EJEMPLO DE FLUJO DE DATOS:
 - El usuario hace clic en Personajes.
 - CharactersPage.jsx llama a getCharacters(name, status).
