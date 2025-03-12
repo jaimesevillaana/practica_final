@@ -71,6 +71,5 @@ llamado apiService.js donde se concentran los endpoint que he utilizado a modo d
 de tiempo tan corto.
 
 
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
 
